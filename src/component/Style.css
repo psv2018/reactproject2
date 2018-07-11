@@ -1,0 +1,67 @@
+html,
+body {
+  background-color: pink;
+}
+.InputValues {
+  height: 150px;
+  border: 3px solid white;
+}
+.Description_text,
+.Amount_text,
+.Option_BTn,
+.Add_button {
+  padding: 15px;
+  margin: 60px 40px 40px 20px;
+  border: 2px solid white;
+}
+.Add_button{
+  background-color:rgb(238, 94, 142);
+    
+}
+.Description_text {
+  margin-left: 200px;
+}
+.printingOutput {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr ;
+  width: 100%;
+  text-align: center;
+  margin: 0px 200px 0px 200px;
+}
+.wrappingOutput {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.printingOutput {
+  margin: 10px;
+}
+.wrappingOutput h1 {
+  text-align: center;
+  border-bottom: 2px solid wheat;
+}
+.wrappingOutput h1{
+    font-size:25px;
+    font-weight: normal;
+}
+.delete_button {
+  width: 60px;
+}
+
+.amount_style {
+  color: red;
+}
+
+.netIncome {
+  border-top: 2px solid white;
+  color: rgb(131, 10, 50);
+  font-size: 25px;
+  text-align: center;
+}
+
+.netIncome h1 {
+  font-size: 25px;
+  text-align: center;
+  text-underline-position: below;
+  color: black; 
+}
